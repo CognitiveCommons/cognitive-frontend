@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Clock, Users, Award, CheckCircle, BookOpen } from "lucide-react";
 
+export const runtime = 'edge';
+
 // Mock data - will be replaced with Strapi API
 const mockCourse = {
   title: "AI for Small Business: 2-Day Intensive Bootcamp",

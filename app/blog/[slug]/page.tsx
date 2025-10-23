@@ -2,6 +2,8 @@ import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
 import { Clock, Calendar, User, Share2 } from "lucide-react";
 
+export const runtime = 'edge';
+
 // Mock blog post - will be replaced with Strapi API
 const mockPost = {
   title: "Why Canadian SMEs Need Affordable AI (And How We're Fixing It)",

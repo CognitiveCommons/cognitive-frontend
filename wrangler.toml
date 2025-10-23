@@ -1,3 +1,4 @@
 name = "cognitive-frontend"
 compatibility_date = "2025-10-23"
-pages_build_output_dir = ".next"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
