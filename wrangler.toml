@@ -1,0 +1,9 @@
+name = "cognitive-frontend"
+compatibility_date = "2025-10-23"
+
+[env.production]
+routes = [
+  { pattern = "cognitivecommons.ca/*", zone_name = "cognitivecommons.ca" }
+]
+
+pages_build_output_dir = ".next"
