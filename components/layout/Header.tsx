@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Container } from "@/components/ui/Container";
@@ -18,15 +19,27 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+    <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 shadow-sm">
       <Container>
-        <nav className="flex items-center justify-between py-4">
+        <nav className="flex items-center justify-between py-2.5">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <div className="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
-              CC
-            </div>
-            <span className="font-bold text-xl">CognitiveCommons</span>
+          <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
+            <Image
+              src="/images/logos/CC_logo_ultrasmooth_black_on_transparent.png"
+              alt="CognitiveCommons"
+              width={140}
+              height={50}
+              className="h-10 w-auto dark:hidden"
+              priority
+            />
+            <Image
+              src="/images/logos/CC_logo_ultrasmooth_white_on_transparent.png"
+              alt="CognitiveCommons"
+              width={140}
+              height={50}
+              className="h-10 w-auto hidden dark:block"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
