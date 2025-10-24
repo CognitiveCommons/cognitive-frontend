@@ -24,14 +24,16 @@ export function Header() {
         <nav className="flex items-center justify-between py-2.5">
           {/* Logo */}
           <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
+            {/* Light mode: need BLACK logo for contrast on white background */}
             <Image
               src="/images/logos/CC_logo_ultrasmooth_black_on_transparent.png"
               alt="CognitiveCommons"
               width={140}
               height={50}
-              className="h-10 w-auto dark:hidden"
+              className="h-10 w-auto block dark:hidden"
               priority
             />
+            {/* Dark mode: need WHITE logo for contrast on dark background */}
             <Image
               src="/images/logos/CC_logo_ultrasmooth_white_on_transparent.png"
               alt="CognitiveCommons"
