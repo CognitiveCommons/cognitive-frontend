@@ -151,8 +151,8 @@ export default function Home() {
               <p className="text-sm text-gray-600 dark:text-gray-300">Businesses lacking tech capability <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-aurora-blue hover:underline text-xs">(source)</a></p>
             </div>
             <div className="group p-6 bg-white/80 dark:glass dark:bg-northern-surface/60 hover:dark:bg-northern-surface rounded-xl text-center border border-gray-200 dark:border-aurora-blue/20 hover:dark:border-aurora-blue/50 transition-all duration-300 hover:shadow-elevation-2">
-              <a href="https://datareportal.com/reports/digital-2024-canada" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-blue-600 dark:text-aurora-blue mb-2 block hover:scale-110 transition-transform">2.2M</a>
-              <p className="text-sm text-gray-600 dark:text-gray-300">Canadians without internet access (2024) <a href="https://datareportal.com/reports/digital-2024-canada" target="_blank" rel="noopener noreferrer" className="text-aurora-blue hover:underline text-xs">(source)</a></p>
+              <a href="https://www.lexpert.ca/news/technology-law/canadians-artificial-intelligence-literacy-among-the-lowest-in-the-world-kpmg-report/392825" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-blue-600 dark:text-aurora-blue mb-2 block hover:scale-110 transition-transform">44/47</a>
+              <p className="text-sm text-gray-600 dark:text-gray-300">Canada's rank in AI literacy among nations (KPMG) <a href="https://www.lexpert.ca/news/technology-law/canadians-artificial-intelligence-literacy-among-the-lowest-in-the-world-kpmg-report/392825" target="_blank" rel="noopener noreferrer" className="text-aurora-blue hover:underline text-xs">(source)</a></p>
             </div>
             <div className="group p-6 bg-white/80 dark:glass dark:bg-northern-surface/60 hover:dark:bg-northern-surface rounded-xl text-center border border-gray-200 dark:border-canadian-pine/20 hover:dark:border-canadian-pine/50 transition-all duration-300 hover:shadow-elevation-2">
               <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-green-600 dark:text-canadian-pine mb-2 block hover:scale-110 transition-transform">88%</a>
@@ -217,7 +217,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-canadian-snow pt-2">Close the Gap, Track the Gap</h3>
               </div>
               <p className="text-gray-700 dark:text-gray-200 mb-3">
-                From 12% business adoption → measure monthly gains. From 32nd in digital gov → track ranking progress. From 2.2M without internet → track connectivity gains.
+                From 12% business adoption → measure monthly gains. From 32nd in digital gov → track ranking progress. From 44th in AI literacy → track learning gains.
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-300">
                 If we're closing the gap, we can prove it.
