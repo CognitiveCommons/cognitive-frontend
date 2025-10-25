@@ -58,25 +58,6 @@ export function Header() {
             ))}
           </div>
 
-          {/* CTA */}
-          <div className="hidden lg:flex items-center gap-6 flex-shrink-0">
-            <a
-              href="#join"
-              onClick={(e) => scrollToSection(e, '#join')}
-              className="px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 shadow-md hover:shadow-xl cursor-pointer"
-            >
-              Get Involved
-            </a>
-          </div>
-
-          {/* Mobile - Simple Join Button */}
-          <a
-            href="#join"
-            onClick={(e) => scrollToSection(e, '#join')}
-            className="lg:hidden px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 shadow-md cursor-pointer"
-          >
-            Get Involved
-          </a>
         </nav>
       </div>
     </header>

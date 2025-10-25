@@ -18,7 +18,7 @@ export default function Home() {
           </h1>
 
           <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Shared infrastructure. Practical tools. Real capability—for every Canadian business and community.
+            Shared infrastructure. Practical tools. Real capability for every Canadian business and community.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
@@ -54,7 +54,7 @@ export default function Home() {
               The Opportunity Gap
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-              When Canadian businesses can't compete on technology, we all lose. The gap is real—but closeable.
+              When Canadian businesses can't compete on technology, we all lose. The gap is real, but closeable.
             </p>
           </div>
 
@@ -127,7 +127,7 @@ export default function Home() {
               </div>
               <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">Shared Infrastructure</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Like roads, internet, and public transit—essential infrastructure that enables everyone to compete and thrive.
+                Like roads, internet, and public transit. Essential infrastructure that enables everyone to compete and thrive.
               </p>
             </div>
 
@@ -164,7 +164,7 @@ export default function Home() {
               </div>
               <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">Complete Transparency</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Share our progress and challenges openly. Build in public. Honest about where we are and what works.
+                Share our progress and challenges openly. Build in public. Clear about what works and what doesn't.
               </p>
             </div>
           </div>
@@ -176,10 +176,10 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-              Where We Honestly Are
+              Our Progress
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">
-              Updated monthly. No overpromises. Just truth.
+              Updated monthly with transparent status.
             </p>
           </div>
 
