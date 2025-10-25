@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function Home() {
   return (
     <main className="min-h-screen">
@@ -22,18 +20,26 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Link
-              href="/join"
+            <a
+              href="#join"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('join')?.scrollIntoView({ behavior: 'smooth' });
+              }}
               className="px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               Join the Movement
-            </Link>
-            <Link
-              href="/the-divide"
+            </a>
+            <a
+              href="#divide"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('divide')?.scrollIntoView({ behavior: 'smooth' });
+              }}
               className="px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 font-semibold rounded-lg border-2 border-gray-300 dark:border-gray-600 hover:border-purple-600 dark:hover:border-purple-400 transition-all duration-300"
             >
               Understand the Problem
-            </Link>
+            </a>
           </div>
 
           {/* Reality Check */}
@@ -66,7 +72,7 @@ export default function Home() {
       </section>
 
       {/* The Divide - Data */}
-      <section className="py-20 bg-white dark:bg-gray-900">
+      <section id="divide" className="py-20 bg-white dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
@@ -120,15 +126,6 @@ export default function Home() {
                 The gap isn't just about technology—it's about opportunity, equity, and Canada's future.
               </p>
             </div>
-          </div>
-
-          <div className="text-center mt-12">
-            <Link
-              href="/the-divide"
-              className="inline-flex items-center text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 font-semibold"
-            >
-              Explore the full picture →
-            </Link>
           </div>
         </div>
       </section>
@@ -194,15 +191,6 @@ export default function Home() {
                 Show our progress and setbacks. Build in the open. No marketing BS.
               </p>
             </div>
-          </div>
-
-          <div className="text-center mt-12">
-            <Link
-              href="/our-belief"
-              className="inline-flex items-center text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 font-semibold"
-            >
-              Read our full beliefs →
-            </Link>
           </div>
         </div>
       </section>
@@ -276,20 +264,11 @@ export default function Home() {
               We're building a movement—from the ground up, in the open, with transparency about our progress and challenges.
             </p>
           </div>
-
-          <div className="text-center mt-12">
-            <Link
-              href="/the-journey"
-              className="inline-flex items-center text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 font-semibold"
-            >
-              See our detailed journey →
-            </Link>
-          </div>
         </div>
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-br from-purple-600 to-blue-600 text-white">
+      <section id="join" className="py-20 bg-gradient-to-br from-purple-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-8 text-center">
           <h2 className="text-4xl sm:text-5xl font-bold mb-6">
             Join Us at Day One
@@ -297,12 +276,10 @@ export default function Home() {
           <p className="text-xl mb-8 opacity-90">
             Help shape what we build. Be part of the solution. Build a different future for Canadian technology access.
           </p>
-          <Link
-            href="/join"
-            className="inline-block px-8 py-4 bg-white text-purple-600 font-semibold rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl"
-          >
-            Get Involved →
-          </Link>
+          <div className="text-center">
+            <p className="text-lg mb-4">Join us at <a href="mailto:hello@cognitivecommons.ca" className="underline hover:text-gray-100">hello@cognitivecommons.ca</a></p>
+            <p className="text-sm opacity-75">Updates coming soon. We'll build this movement together.</p>
+          </div>
         </div>
       </section>
     </main>
