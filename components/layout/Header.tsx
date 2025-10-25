@@ -4,10 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navigation = [
-  { name: "The Divide", href: "#divide" },
-  { name: "Our Belief", href: "#belief" },
-  { name: "The Journey", href: "#journey" },
-  { name: "Join Us", href: "#join" },
+  { name: "The Opportunity", href: "#divide" },
+  { name: "How We Work", href: "#belief" },
+  { name: "Our Progress", href: "#journey" },
+  { name: "Get Involved", href: "#join" },
 ];
 
 export function Header() {
@@ -65,7 +65,7 @@ export function Header() {
               onClick={(e) => scrollToSection(e, '#join')}
               className="px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 shadow-md hover:shadow-xl cursor-pointer"
             >
-              Join Us
+              Get Involved
             </a>
           </div>
 
@@ -75,7 +75,7 @@ export function Header() {
             onClick={(e) => scrollToSection(e, '#join')}
             className="lg:hidden px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 shadow-md cursor-pointer"
           >
-            Join Us
+            Get Involved
           </a>
         </nav>
       </div>
