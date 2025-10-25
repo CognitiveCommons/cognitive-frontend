@@ -11,14 +11,14 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-gray-100 mb-6 leading-tight">
-            Building Canada's<br />
+            Making Technology Work<br />
             <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              Technology Commons
+              for All of Canada
             </span>
           </h1>
 
           <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Shared infrastructure. Practical tools. Real capability for every Canadian business and community.
+            For your business. Your community. Your classroom. Your future.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
@@ -40,67 +40,88 @@ export default function Home() {
               }}
               className="px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 font-semibold rounded-lg border-2 border-gray-300 dark:border-gray-600 hover:border-purple-600 dark:hover:border-purple-400 transition-all duration-300"
             >
-              The Opportunity
+              See the Gap
             </a>
           </div>
         </div>
       </section>
 
-      {/* The Opportunity - Data */}
+      {/* The Capability Gap - Data */}
       <section id="divide" className="py-20 bg-white dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
-              The Opportunity Gap
+              The Capability Gap
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-              When Canadian businesses can't compete on technology, we all lose. The gap is real, but closeable.
+              Canada leads the world in AI policy. But most Canadians can't actually use what we've built.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-8">
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-16 h-16 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold text-purple-600 dark:text-purple-400">85%</span>
+                <div className="flex-shrink-0 w-16 h-16 bg-green-100 dark:bg-green-900/30 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl font-bold text-green-600 dark:text-green-400">#1</span>
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-1">Large Enterprises</h3>
-                  <p className="text-gray-600 dark:text-gray-400">Using advanced technology, AI, automation</p>
+                  <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-1">AI Policy Leadership</h3>
+                  <p className="text-gray-600 dark:text-gray-400">Canada ranks first globally in responsible AI adoption frameworks</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-16 h-16 bg-orange-100 dark:bg-orange-900/30 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold text-orange-600 dark:text-orange-400">23%</span>
+                  <span className="text-xl font-bold text-orange-600 dark:text-orange-400">32nd</span>
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-1">Small & Medium Businesses</h3>
-                  <p className="text-gray-600 dark:text-gray-400">Have access to the same capabilities</p>
+                  <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-1">Digital Government Services</h3>
+                  <p className="text-gray-600 dark:text-gray-400">Down from 3rd place in 2010. Citizens can't access what policy promises.</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-16 h-16 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center">
-                  <span className="text-lg font-bold text-blue-600 dark:text-blue-400">1.2M</span>
+                <div className="flex-shrink-0 w-16 h-16 bg-red-100 dark:bg-red-900/30 rounded-lg flex items-center justify-center">
+                  <span className="text-xl font-bold text-red-600 dark:text-red-400">12%</span>
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-1">Canadian Businesses</h3>
-                  <p className="text-gray-600 dark:text-gray-400">Missing critical competitive advantages</p>
+                  <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-1">Business Adoption</h3>
+                  <p className="text-gray-600 dark:text-gray-400">Only 12% of Canadian businesses actually use AI in operations</p>
                 </div>
               </div>
             </div>
 
             <div className="p-8 bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-blue-900/20 rounded-2xl">
-              <blockquote className="text-xl font-medium text-gray-900 dark:text-gray-100 mb-4">
-                "1.2 million Canadian businesses—your local pharmacy, the machine shop down the road,
-                the accounting firm serving rural towns—competing without the tools their larger
-                competitors take for granted."
-              </blockquote>
-              <p className="text-gray-600 dark:text-gray-400">
-                When Main Street can compete on technology, entire communities thrive. This is about
-                Canadian competitiveness and shared prosperity.
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+                The 30-Place Gap
+              </h3>
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+                From 1st in policy to 32nd in delivery. That's not a ranking problem. That's a capability crisis.
               </p>
+              <p className="text-gray-600 dark:text-gray-400">
+                The local business that can't compete. The non-profit that can't scale. The student who can't
+                learn the skills employers need. The community service buried in paper processes. The gap between
+                what we promise and what we deliver is costing Canadian competitiveness.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-4 gap-6">
+            <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
+              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">1.2M</div>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Businesses lacking tech capability</p>
+            </div>
+            <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
+              <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">7,000</div>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Unfilled government tech positions</p>
+            </div>
+            <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
+              <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">88%</div>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Of businesses not using AI</p>
+            </div>
+            <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
+              <div className="text-3xl font-bold text-orange-600 dark:text-orange-400 mb-2">29↓</div>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Places fallen in digital gov (2010-2022)</p>
             </div>
           </div>
         </div>

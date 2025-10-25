@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navigation = [
-  { name: "The Opportunity", href: "#divide" },
+  { name: "The Gap", href: "#divide" },
   { name: "How We Work", href: "#belief" },
   { name: "Our Progress", href: "#journey" },
   { name: "Get Involved", href: "#join" },

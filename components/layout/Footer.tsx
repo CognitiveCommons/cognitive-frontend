@@ -25,7 +25,7 @@ export function Footer() {
 
           {/* Tagline */}
           <p className="text-center text-gray-600 dark:text-gray-400 max-w-md">
-            Building Canada's Technology Commons
+            Making Technology Work for All of Canada
           </p>
 
           {/* Copyright */}

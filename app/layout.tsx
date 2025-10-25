@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "CognitiveCommons | Building Canada's Technology Commons",
-  description: "Building a technology commons for all Canadians—from rural communities to Main Street businesses. We're at day one. Join us.",
+  title: "CognitiveCommons | Making Technology Work for All of Canada",
+  description: "For your business. Your community. Your classroom. Your future. Building Canadian capability in technology—from Main Street to public services, classrooms to communities.",
   icons: {
     icon: [
       { url: "/images/logos/favicons/cc_symbol_black_16.png", sizes: "16x16", type: "image/png" },
