@@ -6,12 +6,10 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const navigation = [
-  { name: "Home", href: "/" },
-  { name: "Courses", href: "/courses" },
-  { name: "Tools", href: "/tools" },
-  { name: "About", href: "/about" },
-  { name: "Blog", href: "/blog" },
-  { name: "Contact", href: "/contact" },
+  { name: "The Divide", href: "/the-divide" },
+  { name: "Our Belief", href: "/our-belief" },
+  { name: "The Journey", href: "/the-journey" },
+  { name: "Join Us", href: "/join" },
 ];
 
 export function Header() {
@@ -60,7 +58,7 @@ export function Header() {
           {/* Actions */}
           <div className="hidden lg:flex items-center gap-6 flex-shrink-0">
             <Link
-              href="/courses"
+              href="/join"
               className="px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 shadow-md hover:shadow-xl"
             >
               Join Us
@@ -91,7 +89,7 @@ export function Header() {
                 </Link>
               ))}
               <Link
-                href="/courses"
+                href="/join"
                 onClick={() => setMobileMenuOpen(false)}
                 className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 shadow-md text-center"
               >

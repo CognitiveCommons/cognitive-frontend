@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "CognitiveCommons | Democratizing AI for All Canadians",
-  description: "Making artificial intelligence accessible, affordable, and ethical for Canadian SMEs and communities—not just tech elites.",
+  title: "CognitiveCommons | Building Canada's Technology Commons",
+  description: "Building a technology commons for all Canadians—from rural communities to Main Street businesses. We're at day one. Join us.",
   icons: {
     icon: [
       { url: "/images/logos/favicons/cc_symbol_black_16.png", sizes: "16x16", type: "image/png" },
