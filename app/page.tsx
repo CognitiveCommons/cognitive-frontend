@@ -14,14 +14,14 @@ export default function Home() {
           <AnimatedAurora />
         </div>
 
-        {/* Maple Leaf Watermark - Canadian Identity */}
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
+        {/* Maple Leaf Watermark - Canadian Identity (Rotated Asymmetric) */}
+        <div className="absolute inset-0 flex items-center justify-end pointer-events-none z-0" style={{ paddingRight: '10%' }}>
           <MapleLeaf
             variant="outlined"
             size="xxl"
             color="red"
-            opacity={0.03}
-            className="text-canadian-red-dark"
+            opacity={0.05}
+            className="text-canadian-red-dark transform rotate-[18deg]"
           />
         </div>
 
@@ -39,16 +39,16 @@ export default function Home() {
 
           <FadeIn delay={0.2}>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-canadian-snow mb-6 leading-tight">
-              Making Technology Work<br />
               <span className="text-gradient-canadian">
-                for All of Canada
-              </span>
+                What Could You Do
+              </span><br />
+              If Technology Actually Worked?
             </h1>
           </FadeIn>
 
           <FadeIn delay={0.3}>
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-              For your business. Your community. Your classroom. Your future.
+              For every business. Every community. Every classroom. Every Canadian.
             </p>
           </FadeIn>
 
@@ -151,8 +151,8 @@ export default function Home() {
               <p className="text-sm text-gray-600 dark:text-gray-300">Businesses lacking tech capability <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-aurora-blue hover:underline text-xs">(source)</a></p>
             </div>
             <div className="group p-6 bg-white/80 dark:glass dark:bg-northern-surface/60 hover:dark:bg-northern-surface rounded-xl text-center border border-gray-200 dark:border-aurora-blue/20 hover:dark:border-aurora-blue/50 transition-all duration-300 hover:shadow-elevation-2">
-              <a href="https://digital.canada.ca/2025/01/23/how-can-civic-tech-help-improve-government-service-delivery/" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-blue-600 dark:text-aurora-blue mb-2 block hover:scale-110 transition-transform">7,000+</a>
-              <p className="text-sm text-gray-600 dark:text-gray-300">Unfilled government tech positions (2022) <a href="https://digital.canada.ca/2025/01/23/how-can-civic-tech-help-improve-government-service-delivery/" target="_blank" rel="noopener noreferrer" className="text-aurora-blue hover:underline text-xs">(source)</a></p>
+              <a href="https://datareportal.com/reports/digital-2024-canada" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-blue-600 dark:text-aurora-blue mb-2 block hover:scale-110 transition-transform">2.2M</a>
+              <p className="text-sm text-gray-600 dark:text-gray-300">Canadians without internet access (2024) <a href="https://datareportal.com/reports/digital-2024-canada" target="_blank" rel="noopener noreferrer" className="text-aurora-blue hover:underline text-xs">(source)</a></p>
             </div>
             <div className="group p-6 bg-white/80 dark:glass dark:bg-northern-surface/60 hover:dark:bg-northern-surface rounded-xl text-center border border-gray-200 dark:border-canadian-pine/20 hover:dark:border-canadian-pine/50 transition-all duration-300 hover:shadow-elevation-2">
               <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-green-600 dark:text-canadian-pine mb-2 block hover:scale-110 transition-transform">88%</a>
@@ -174,7 +174,7 @@ export default function Home() {
               How We Work
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Four principles for Day One. Execution over philosophy.
+              Four principles. Execution over philosophy.
             </p>
           </div>
 
@@ -217,7 +217,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-canadian-snow pt-2">Close the Gap, Track the Gap</h3>
               </div>
               <p className="text-gray-700 dark:text-gray-200 mb-3">
-                From 12% business adoption → measure monthly gains. From 32nd in digital gov → track ranking progress. From 7,000 unfilled positions → count skills built.
+                From 12% business adoption → measure monthly gains. From 32nd in digital gov → track ranking progress. From 2.2M without internet → track connectivity gains.
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-300">
                 If we're closing the gap, we can prove it.
@@ -256,10 +256,10 @@ export default function Home() {
 
           <div className="space-y-8">
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-canadian-red to-canadian-red-dark rounded-full flex items-center justify-center text-white font-bold shadow-glow-red">
+              <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-aurora-green to-canadian-pine rounded-full flex items-center justify-center text-white font-bold shadow-glow-aurora">
                 ✓
               </div>
-              <div className="flex-1 p-6 bg-white/80 dark:glass dark:bg-northern-surface rounded-xl border-l-4 border-canadian-red-dark dark:border-canadian-red-dark">
+              <div className="flex-1 p-6 bg-white/80 dark:glass dark:bg-northern-surface rounded-xl border-l-4 border-aurora-green dark:border-aurora-green">
                 <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2">Established</h3>
                 <ul className="space-y-1 text-gray-600 dark:text-gray-300">
                   <li>• Mission and vision defined</li>
@@ -312,7 +312,7 @@ export default function Home() {
 
         <div className="max-w-4xl mx-auto px-8 text-center relative z-10">
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-canadian-snow">
-            Get Involved at Day One
+            Get Involved
           </h2>
           <p className="text-xl mb-8 text-gray-100">
             Help shape what we build. Share your expertise. Build Canada's technology commons together.

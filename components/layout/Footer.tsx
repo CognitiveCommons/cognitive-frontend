@@ -50,7 +50,7 @@ export function Footer() {
 
           {/* Copyright */}
           <p className="text-center text-sm text-gray-500 dark:text-gray-400">
-            © {new Date().getFullYear()} CognitiveCommons. A Canadian organization.
+            © {new Date().getFullYear()} CognitiveCommons.
           </p>
         </div>
       </div>
