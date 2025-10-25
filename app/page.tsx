@@ -54,7 +54,7 @@ export default function Home() {
               The Capability Gap
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-              Canada leads the world in AI policy. But most Canadians can't actually use what we've built.
+              Canada leads the world in AI policy. But most Canadians haven't been able to benefit from what we've built.
             </p>
           </div>
 
@@ -99,8 +99,8 @@ export default function Home() {
                 From 1st in policy to 32nd in delivery. That's not a ranking problem. That's a capability crisis.
               </p>
               <p className="text-gray-600 dark:text-gray-400">
-                The local business that can't compete. The community organization that can't scale. The student who can't
-                learn the skills employers need. The service buried in paper processes. The gap between
+                The local business that can't compete. The community organization that can't scale. The teacher and student
+                navigating AI tools in the classroom without support. The service buried in paper processes. The gap between
                 what we promise and what we deliver is costing Canadian competitiveness.
               </p>
             </div>
@@ -148,7 +148,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 pt-2">Start with Who Needs Help</h3>
               </div>
               <p className="text-gray-700 dark:text-gray-300 mb-3">
-                The business that can't compete. The citizen trying to understand complex policy. The student lacking job skills. The community organization that can't scale.
+                The business that can't compete. The citizen trying to understand complex policy. The teacher and student navigating technology in the classroom. The community organization that can't scale.
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400">
                 Build for real Canadians with real problems, not theoretical users.
@@ -196,7 +196,7 @@ export default function Home() {
                 Technology that only works for 12% of businesses isn't working. Government services ranked 32nd aren't serving citizens.
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Build for the machine shop in Medicine Hat, the community group in rural Saskatchewan, the student in Thunder Bay, the small business in a remote town. If it doesn't work for them, it doesn't work.
+                Build for the machine shop in Medicine Hat, the community group in rural Saskatchewan, the classroom using AI tools in Thunder Bay, the small business in a remote town. If it doesn't work for them, it doesn't work.
               </p>
             </div>
           </div>
