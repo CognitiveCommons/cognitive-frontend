@@ -43,33 +43,6 @@ export default function Home() {
               Understand the Problem
             </a>
           </div>
-
-          {/* Reality Check */}
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto text-left">
-            <div className="p-6 bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700">
-              <div className="text-4xl font-bold text-gray-300 dark:text-gray-600 mb-2">NO</div>
-              <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">Products to Sell</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
-                Just a mission. And an invitation.
-              </p>
-            </div>
-
-            <div className="p-6 bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700">
-              <div className="text-4xl font-bold text-gray-300 dark:text-gray-600 mb-2">NO</div>
-              <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">Courses to Buy</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
-                Just a beginning. And transparency.
-              </p>
-            </div>
-
-            <div className="p-6 bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700">
-              <div className="text-4xl font-bold text-gray-300 dark:text-gray-600 mb-2">NO</div>
-              <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">Proven Track Record</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
-                Just radical honesty. And a real problem.
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -133,7 +106,7 @@ export default function Home() {
       </section>
 
       {/* What We Stand For */}
-      <section className="py-20 bg-gray-50 dark:bg-gray-800">
+      <section id="belief" className="py-20 bg-gray-50 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
@@ -198,7 +171,7 @@ export default function Home() {
       </section>
 
       {/* Where We Are - Journey */}
-      <section className="py-20 bg-white dark:bg-gray-900">
+      <section id="journey" className="py-20 bg-white dark:bg-gray-900">
         <div className="max-w-5xl mx-auto px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
@@ -218,7 +191,6 @@ export default function Home() {
                 <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">Established</h3>
                 <ul className="space-y-1 text-gray-600 dark:text-gray-400">
                   <li>• Mission and vision defined</li>
-                  <li>• Non-profit incorporated federally</li>
                   <li>• Core values established</li>
                   <li>• Understanding of the problem</li>
                   <li>• This website (v1)</li>
@@ -233,6 +205,7 @@ export default function Home() {
               <div className="flex-1 p-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl border-l-4 border-blue-500">
                 <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">In Progress</h3>
                 <ul className="space-y-1 text-gray-600 dark:text-gray-400">
+                  <li>• Non-profit federal incorporation</li>
                   <li>• Community building and early engagement</li>
                   <li>• Partnership conversations</li>
                   <li>• First initiative design</li>
@@ -256,15 +229,6 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-          </div>
-
-          <div className="mt-12 p-6 bg-purple-50 dark:bg-purple-900/20 rounded-xl text-center">
-            <p className="text-lg font-medium text-gray-900 dark:text-gray-100 mb-2">
-              We're not selling products. We don't have courses to enroll in.
-            </p>
-            <p className="text-gray-600 dark:text-gray-400">
-              We're building a movement—from the ground up, in the open, with transparency about our progress and challenges.
-            </p>
           </div>
         </div>
       </section>
