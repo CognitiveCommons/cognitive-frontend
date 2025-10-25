@@ -40,9 +40,9 @@ export default function Home() {
           <FadeIn delay={0.2}>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-canadian-snow mb-6 leading-tight">
               <span className="text-gradient-canadian">
-                What Could You Do
+                What If Technology Wasn't Complicated?
               </span><br />
-              If Technology Actually Worked?
+              What If It Wasn't Scary?
             </h1>
           </FadeIn>
 
