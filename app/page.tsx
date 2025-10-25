@@ -62,31 +62,31 @@ export default function Home() {
             <div className="space-y-8">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-16 h-16 bg-green-100 dark:bg-green-900/30 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold text-green-600 dark:text-green-400">#1</span>
+                  <a href="https://www.allaboutai.com/resources/ai-statistics/global-ai-adoption/" target="_blank" rel="noopener noreferrer" className="text-2xl font-bold text-green-600 dark:text-green-400 hover:underline">#1</a>
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-1">AI Policy Leadership</h3>
-                  <p className="text-gray-600 dark:text-gray-400">Canada ranks first globally in responsible AI adoption frameworks</p>
+                  <p className="text-gray-600 dark:text-gray-400">Canada ranks first globally in responsible AI adoption frameworks <a href="https://www.allaboutai.com/resources/ai-statistics/global-ai-adoption/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-16 h-16 bg-orange-100 dark:bg-orange-900/30 rounded-lg flex items-center justify-center">
-                  <span className="text-xl font-bold text-orange-600 dark:text-orange-400">32nd</span>
+                  <a href="https://publicadministration.un.org/egovkb/en-us/Reports/UN-E-Government-Survey-2024" target="_blank" rel="noopener noreferrer" className="text-xl font-bold text-orange-600 dark:text-orange-400 hover:underline">32nd</a>
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-1">Digital Government Services</h3>
-                  <p className="text-gray-600 dark:text-gray-400">Down from 3rd place in 2010. Citizens can't access what policy promises.</p>
+                  <p className="text-gray-600 dark:text-gray-400">Down from 3rd place in 2010. Citizens can't access what policy promises. <a href="https://publicadministration.un.org/egovkb/en-us/Reports/UN-E-Government-Survey-2024" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-16 h-16 bg-red-100 dark:bg-red-900/30 rounded-lg flex items-center justify-center">
-                  <span className="text-xl font-bold text-red-600 dark:text-red-400">12%</span>
+                  <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-xl font-bold text-red-600 dark:text-red-400 hover:underline">12%</a>
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-1">Business Adoption</h3>
-                  <p className="text-gray-600 dark:text-gray-400">Only 12% of Canadian businesses actually use AI in operations</p>
+                  <p className="text-gray-600 dark:text-gray-400">Only 12% of Canadian businesses actually use AI in operations <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
                 </div>
               </div>
             </div>
@@ -99,8 +99,8 @@ export default function Home() {
                 From 1st in policy to 32nd in delivery. That's not a ranking problem. That's a capability crisis.
               </p>
               <p className="text-gray-600 dark:text-gray-400">
-                The local business that can't compete. The non-profit that can't scale. The student who can't
-                learn the skills employers need. The community service buried in paper processes. The gap between
+                The local business that can't compete. The community organization that can't scale. The student who can't
+                learn the skills employers need. The service buried in paper processes. The gap between
                 what we promise and what we deliver is costing Canadian competitiveness.
               </p>
             </div>
@@ -108,20 +108,20 @@ export default function Home() {
 
           <div className="grid md:grid-cols-4 gap-6">
             <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
-              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">1.2M</div>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Businesses lacking tech capability</p>
+              <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2 block hover:underline">1.2M</a>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Businesses lacking tech capability <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
             </div>
             <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
-              <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">7,000</div>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Unfilled government tech positions</p>
+              <a href="https://digital.canada.ca/2025/01/23/how-can-civic-tech-help-improve-government-service-delivery/" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2 block hover:underline">7,000</a>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Unfilled government tech positions <a href="https://digital.canada.ca/2025/01/23/how-can-civic-tech-help-improve-government-service-delivery/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
             </div>
             <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
-              <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">88%</div>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Of businesses not using AI</p>
+              <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2 block hover:underline">88%</a>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Of businesses not using AI <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
             </div>
             <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
-              <div className="text-3xl font-bold text-orange-600 dark:text-orange-400 mb-2">29↓</div>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Places fallen in digital gov (2010-2022)</p>
+              <a href="https://publicadministration.un.org/egovkb/en-us/Reports/UN-E-Government-Survey-2024" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-orange-600 dark:text-orange-400 mb-2 block hover:underline">29↓</a>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Places fallen in digital gov (2010-2022) <a href="https://publicadministration.un.org/egovkb/en-us/Reports/UN-E-Government-Survey-2024" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
             </div>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 pt-2">Start with Who Needs Help</h3>
               </div>
               <p className="text-gray-700 dark:text-gray-300 mb-3">
-                The business that can't compete. The government clerk drowning in paper. The student lacking job skills. The non-profit that can't scale.
+                The business that can't compete. The citizen trying to understand complex policy. The student lacking job skills. The community organization that can't scale.
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400">
                 Build for real Canadians with real problems, not theoretical users.
@@ -196,7 +196,7 @@ export default function Home() {
                 Technology that only works for 12% of businesses isn't working. Government services ranked 32nd aren't serving citizens.
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Build for the machine shop in Medicine Hat, the non-profit in rural Saskatchewan, the student in Thunder Bay, the clerk in a small town. If it doesn't work for them, it doesn't work.
+                Build for the machine shop in Medicine Hat, the community group in rural Saskatchewan, the student in Thunder Bay, the small business in a remote town. If it doesn't work for them, it doesn't work.
               </p>
             </div>
           </div>
@@ -211,7 +211,7 @@ export default function Home() {
               Our Progress
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">
-              Updated monthly with transparent status.
+              Regularly updated with current status.
             </p>
           </div>
 
