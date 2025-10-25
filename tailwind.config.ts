@@ -7,6 +7,12 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    "dark:hidden",
+    "dark:block",
+    "dark:bg-gray-900",
+    "dark:border-gray-800",
+  ],
   theme: {
     extend: {
       colors: {
