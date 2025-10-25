@@ -47,7 +47,7 @@ export default function Home() {
 
           <FadeIn delay={0.3}>
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-              We create and run digital services that break down barriers—giving SMEs, Non-Profits, and communities the capacity to take action and drive meaningful change.
+              We create and run digital services that break down barriers—giving SMEs, Non-Profits, and communities more capacity to take action and drive meaningful change.
             </p>
           </FadeIn>
 
