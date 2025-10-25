@@ -20,6 +20,22 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 shadow-sm">
+      <style jsx>{`
+        .logo-light {
+          display: block;
+        }
+        .logo-dark {
+          display: none;
+        }
+        @media (prefers-color-scheme: dark) {
+          .logo-light {
+            display: none;
+          }
+          .logo-dark {
+            display: block;
+          }
+        }
+      `}</style>
       <Container>
         <nav className="flex items-center justify-between py-2.5">
           {/* Logo */}
@@ -30,7 +46,7 @@ export function Header() {
               alt="CognitiveCommons"
               width={140}
               height={50}
-              className="h-10 w-auto block dark:hidden"
+              className="h-10 w-auto logo-light"
               priority
             />
             {/* Dark mode: WHITE logo on dark background */}
@@ -39,7 +55,7 @@ export function Header() {
               alt="CognitiveCommons"
               width={140}
               height={50}
-              className="h-10 w-auto hidden dark:block"
+              className="h-10 w-auto logo-dark"
               priority
             />
           </Link>
