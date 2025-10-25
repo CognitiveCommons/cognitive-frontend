@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { MapleLeaf } from "@/components/canadian/MapleLeaf";
 
 const navigation = [
   { name: "The Gap", href: "#divide" },
@@ -24,7 +25,7 @@ export function Header() {
       <div className="max-w-[1536px] mx-auto px-8">
         <nav className="flex items-center justify-between gap-12 py-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center flex-shrink-0 hover:opacity-90 transition-all duration-300">
+          <Link href="/" className="flex items-center gap-2 flex-shrink-0 hover:opacity-90 transition-all duration-300">
             <Image
               src="/images/logos/CC_logo_ultrasmooth_black_on_transparent.png"
               alt="CognitiveCommons - Building Canada's Technology Commons"
@@ -40,6 +41,13 @@ export function Header() {
               height={60}
               className="h-12 w-auto logo-dark"
               priority
+            />
+            {/* Canadian maple leaf identity marker */}
+            <MapleLeaf
+              variant="filled"
+              size="sm"
+              color="red"
+              className="text-canadian-red dark:text-canadian-red-dark"
             />
           </Link>
 

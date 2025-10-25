@@ -99,6 +99,19 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+
+  /* Canadian flag gradient (red → white → aurora green) */
+  .text-gradient-canadian {
+    background: linear-gradient(135deg, #8B0A1F 0%, #F8FAFC 40%, #00C896 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Canadian background gradients */
+  .bg-gradient-canadian {
+    background: linear-gradient(135deg, #8B0A1F 0%, #F8FAFC 50%, #00C896 100%);
+  }
 }
 
 /* Respect reduced motion preference */

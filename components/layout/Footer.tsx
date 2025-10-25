@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { MapleLeaf } from "@/components/canadian/MapleLeaf";
 
 export function Footer() {
   return (
@@ -25,8 +26,27 @@ export function Footer() {
 
           {/* Tagline with gradient */}
           <p className="text-center text-gray-600 dark:text-gray-300 max-w-md font-medium">
-            Making Technology Work for <span className="text-gradient-aurora">All of Canada</span>
+            Making Technology Work for <span className="text-gradient-canadian">All of Canada</span>
           </p>
+
+          {/* Made in Canada Badge */}
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/50 dark:glass dark:bg-northern-surface/50 border border-gray-200 dark:border-canadian-red-dark/30 rounded-full">
+            <MapleLeaf
+              variant="filled"
+              size="sm"
+              color="red"
+              className="text-canadian-red dark:text-canadian-red-dark"
+            />
+            <span className="text-sm font-semibold text-gray-700 dark:text-gray-200">
+              Made in Canada
+            </span>
+            <MapleLeaf
+              variant="filled"
+              size="sm"
+              color="red"
+              className="text-canadian-red dark:text-canadian-red-dark"
+            />
+          </div>
 
           {/* Copyright */}
           <p className="text-center text-sm text-gray-500 dark:text-gray-400">

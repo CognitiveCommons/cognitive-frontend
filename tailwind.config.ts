@@ -44,8 +44,11 @@ export default {
           "maple-dark": "#D97706",
           snow: "#F8FAFC",
           "snow-muted": "#E2E8F0",
-          red: "#DC2626",
-          "red-muted": "#B91C1C",
+          // Official Canadian flag red (Pantone 032)
+          red: "#FF0000",              // Official flag red (light mode)
+          "red-dark": "#8B0A1F",       // Deep burgundy (dark mode primary)
+          "red-muted": "#A0152E",      // Muted crimson (hover states)
+          "red-jewel": "#8B0000",      // Midnight ruby (accents)
         },
         // Legacy accent colors (for gradual migration)
         accent: {
@@ -77,6 +80,8 @@ export default {
       boxShadow: {
         'glow-aurora': '0 0 20px rgba(0, 200, 150, 0.3)',
         'glow-blue': '0 0 20px rgba(14, 165, 233, 0.3)',
+        'glow-red': '0 0 20px rgba(139, 10, 31, 0.4)',        // Canadian red glow
+        'glow-red-soft': '0 0 15px rgba(255, 0, 0, 0.2)',     // Soft red glow
         'elevation-1': '0 1px 3px 0 rgb(0 0 0 / 0.3)',
         'elevation-2': '0 4px 6px -1px rgb(0 0 0 / 0.3)',
         'elevation-3': '0 10px 15px -3px rgb(0 0 0 / 0.3)',

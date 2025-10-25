@@ -2,6 +2,7 @@
 
 import { AnimatedAurora } from "@/components/effects/AnimatedAurora";
 import { FadeIn } from "@/components/animations/FadeIn";
+import { MapleLeaf } from "@/components/canadian/MapleLeaf";
 
 export default function Home() {
   return (
@@ -11,6 +12,17 @@ export default function Home() {
         {/* Animated Aurora Background (dark mode only) */}
         <div className="hidden dark:block">
           <AnimatedAurora />
+        </div>
+
+        {/* Maple Leaf Watermark - Canadian Identity */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
+          <MapleLeaf
+            variant="outlined"
+            size="xxl"
+            color="red"
+            opacity={0.03}
+            className="text-canadian-red-dark"
+          />
         </div>
 
         {/* Background pattern overlay - subtle topographic lines */}
@@ -28,7 +40,7 @@ export default function Home() {
           <FadeIn delay={0.2}>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-canadian-snow mb-6 leading-tight">
               Making Technology Work<br />
-              <span className="text-gradient-aurora">
+              <span className="text-gradient-canadian">
                 for All of Canada
               </span>
             </h1>
@@ -48,7 +60,7 @@ export default function Home() {
                   e.preventDefault();
                   document.getElementById('join')?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="group px-8 py-4 bg-gradient-to-r from-aurora-green to-aurora-blue text-white font-semibold rounded-lg hover:shadow-glow-aurora transition-all duration-300 shadow-elevation-2 hover:shadow-elevation-3 hover:scale-105"
+                className="group px-8 py-4 bg-gradient-to-r from-aurora-green to-aurora-blue text-white font-semibold rounded-lg border-2 border-canadian-red-dark dark:border-canadian-red-dark hover:shadow-glow-red transition-all duration-300 shadow-elevation-2 hover:shadow-elevation-3 hover:scale-105"
               >
                 Get Involved
               </a>
@@ -244,10 +256,10 @@ export default function Home() {
 
           <div className="space-y-8">
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-aurora-green to-canadian-pine rounded-full flex items-center justify-center text-white font-bold shadow-glow-aurora">
+              <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-canadian-red to-canadian-red-dark rounded-full flex items-center justify-center text-white font-bold shadow-glow-red">
                 ✓
               </div>
-              <div className="flex-1 p-6 bg-white/80 dark:glass dark:bg-northern-surface rounded-xl border-l-4 border-aurora-green dark:border-aurora-green">
+              <div className="flex-1 p-6 bg-white/80 dark:glass dark:bg-northern-surface rounded-xl border-l-4 border-canadian-red-dark dark:border-canadian-red-dark">
                 <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2">Established</h3>
                 <ul className="space-y-1 text-gray-600 dark:text-gray-300">
                   <li>• Mission and vision defined</li>
