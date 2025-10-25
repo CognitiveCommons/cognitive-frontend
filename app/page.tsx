@@ -1,53 +1,69 @@
 "use client";
 
+import { AnimatedAurora } from "@/components/effects/AnimatedAurora";
+import { FadeIn } from "@/components/animations/FadeIn";
+
 export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 dark:from-northern-dark dark:via-northern-slate dark:to-northern-deep-forest overflow-hidden">
+        {/* Animated Aurora Background (dark mode only) */}
+        <div className="hidden dark:block">
+          <AnimatedAurora />
+        </div>
+
         {/* Background pattern overlay - subtle topographic lines */}
         <div className="absolute inset-0 opacity-30 dark:opacity-10" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2300C896' fill-opacity='0.15'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
         }} />
 
         <div className="max-w-5xl mx-auto px-8 py-20 text-center relative z-10">
-          <div className="inline-block px-4 py-2 mb-6 glass dark:glass backdrop-blur-sm bg-aurora-purple/10 dark:bg-aurora-purple/20 text-aurora-purple dark:text-aurora-purple border border-aurora-purple/30 text-sm font-medium rounded-full">
-            Day One: Foundation Building
-          </div>
+          <FadeIn delay={0.1} direction="down">
+            <div className="inline-block px-4 py-2 mb-6 glass dark:glass backdrop-blur-sm bg-aurora-purple/10 dark:bg-aurora-purple/20 text-aurora-purple dark:text-aurora-purple border border-aurora-purple/30 text-sm font-medium rounded-full">
+              Day One: Foundation Building
+            </div>
+          </FadeIn>
 
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-canadian-snow mb-6 leading-tight">
-            Making Technology Work<br />
-            <span className="text-gradient-aurora">
-              for All of Canada
-            </span>
-          </h1>
+          <FadeIn delay={0.2}>
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-canadian-snow mb-6 leading-tight">
+              Making Technology Work<br />
+              <span className="text-gradient-aurora">
+                for All of Canada
+              </span>
+            </h1>
+          </FadeIn>
 
-          <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-            For your business. Your community. Your classroom. Your future.
-          </p>
+          <FadeIn delay={0.3}>
+            <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
+              For your business. Your community. Your classroom. Your future.
+            </p>
+          </FadeIn>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <a
-              href="#join"
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById('join')?.scrollIntoView({ behavior: 'smooth' });
-              }}
-              className="group px-8 py-4 bg-gradient-to-r from-aurora-green to-aurora-blue text-white font-semibold rounded-lg hover:shadow-glow-aurora transition-all duration-300 shadow-elevation-2 hover:shadow-elevation-3 hover:scale-105"
-            >
-              Get Involved
-            </a>
-            <a
-              href="#divide"
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById('divide')?.scrollIntoView({ behavior: 'smooth' });
-              }}
-              className="px-8 py-4 bg-white/90 dark:bg-northern-surface dark:glass text-gray-900 dark:text-canadian-snow font-semibold rounded-lg border-2 border-gray-300 dark:border-aurora-blue/30 hover:border-aurora-blue dark:hover:border-aurora-green hover:shadow-glow-blue dark:hover:shadow-glow-aurora transition-all duration-300"
-            >
-              See the Gap
-            </a>
-          </div>
+          <FadeIn delay={0.4}>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+              <a
+                href="#join"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById('join')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+                className="group px-8 py-4 bg-gradient-to-r from-aurora-green to-aurora-blue text-white font-semibold rounded-lg hover:shadow-glow-aurora transition-all duration-300 shadow-elevation-2 hover:shadow-elevation-3 hover:scale-105"
+              >
+                Get Involved
+              </a>
+              <a
+                href="#divide"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById('divide')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+                className="px-8 py-4 bg-white/90 dark:bg-northern-surface dark:glass text-gray-900 dark:text-canadian-snow font-semibold rounded-lg border-2 border-gray-300 dark:border-aurora-blue/30 hover:border-aurora-blue dark:hover:border-aurora-green hover:shadow-glow-blue dark:hover:shadow-glow-aurora transition-all duration-300"
+              >
+                See the Gap
+              </a>
+            </div>
+          </FadeIn>
         </div>
       </section>
 
