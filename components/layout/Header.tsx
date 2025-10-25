@@ -47,7 +47,7 @@ export function Header() {
               variant="filled"
               size="sm"
               color="red"
-              className="text-canadian-red dark:text-canadian-red-dark"
+              className="text-canadian-red dark:text-canadian-red-dark transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110"
             />
           </Link>
 

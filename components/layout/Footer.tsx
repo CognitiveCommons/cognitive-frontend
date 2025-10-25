@@ -30,12 +30,12 @@ export function Footer() {
           </p>
 
           {/* Made in Canada Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/50 dark:glass dark:bg-northern-surface/50 border border-gray-200 dark:border-canadian-red-dark/30 rounded-full">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/50 dark:glass dark:bg-northern-surface/50 border border-gray-200 dark:border-canadian-red-dark/30 rounded-full transition-all duration-300 hover:border-canadian-red-dark hover:shadow-glow-red-soft hover:scale-105">
             <MapleLeaf
               variant="filled"
               size="sm"
               color="red"
-              className="text-canadian-red dark:text-canadian-red-dark"
+              className="text-canadian-red dark:text-canadian-red-dark transition-transform duration-300"
             />
             <span className="text-sm font-semibold text-gray-700 dark:text-gray-200">
               Made in Canada
@@ -44,7 +44,7 @@ export function Footer() {
               variant="filled"
               size="sm"
               color="red"
-              className="text-canadian-red dark:text-canadian-red-dark"
+              className="text-canadian-red dark:text-canadian-red-dark transition-transform duration-300"
             />
           </div>
 
