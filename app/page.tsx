@@ -40,15 +40,14 @@ export default function Home() {
           <FadeIn delay={0.2}>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-canadian-snow mb-6 leading-tight">
               <span className="text-gradient-canadian">
-                What If Technology Wasn't Complicated?
-              </span><br />
-              What If It Wasn't Scary?
+                Let's make things better—open, accessible, and human-centered
+              </span>
             </h1>
           </FadeIn>
 
           <FadeIn delay={0.3}>
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-              For every business. Every community. Every classroom. Every Canadian.
+              We create and run digital services that break down barriers—giving SMEs, Non-Profits, and communities the capacity to take action and drive meaningful change.
             </p>
           </FadeIn>
 
