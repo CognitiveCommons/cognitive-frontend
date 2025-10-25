@@ -43,3 +43,22 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* Logo theme switching - Global CSS for reliability */
+.logo-light {
+  display: block !important;
+}
+
+.logo-dark {
+  display: none !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo-light {
+    display: none !important;
+  }
+
+  .logo-dark {
+    display: block !important;
+  }
+}
