@@ -127,7 +127,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* What We Stand For */}
+      {/* How We Work */}
       <section id="belief" className="py-20 bg-gray-50 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center mb-16">
@@ -135,57 +135,68 @@ export default function Home() {
               How We Work
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-              Principles that guide everything we build.
+              Four principles adapted from the UK's Government Digital Service. Execution over philosophy.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl">
-              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="p-8 bg-white dark:bg-gray-900 rounded-xl border-l-4 border-purple-600">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl font-bold text-purple-600 dark:text-purple-400">1</span>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 pt-2">Start with Who Needs Help</h3>
               </div>
-              <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">Shared Infrastructure</h3>
+              <p className="text-gray-700 dark:text-gray-300 mb-3">
+                The business that can't compete. The government clerk drowning in paper. The student lacking job skills. The non-profit that can't scale.
+              </p>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Like roads, internet, and public transit. Essential infrastructure that enables everyone to compete and thrive.
+                Build for real Canadians with real problems, not theoretical users.
               </p>
             </div>
 
-            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl">
-              <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
-                </svg>
+            <div className="p-8 bg-white dark:bg-gray-900 rounded-xl border-l-4 border-blue-600">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">2</span>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 pt-2">Ship Working Tools, Not Perfect Plans</h3>
               </div>
-              <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">Capability Building</h3>
+              <p className="text-gray-700 dark:text-gray-300 mb-3">
+                Canada ranks #1 in AI policy. We don't need more frameworks.
+              </p>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Give people real skills and tools they can use. Practical knowledge that creates lasting value and competitive advantage.
+                Launch early, improve constantly, measure actual capability. Small working systems beat large perfect plans.
               </p>
             </div>
 
-            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl">
-              <div className="w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
+            <div className="p-8 bg-white dark:bg-gray-900 rounded-xl border-l-4 border-green-600">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl font-bold text-green-600 dark:text-green-400">3</span>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 pt-2">Close the Gap, Track the Gap</h3>
               </div>
-              <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">Community-Driven</h3>
+              <p className="text-gray-700 dark:text-gray-300 mb-3">
+                From 12% business adoption → measure monthly gains. From 32nd in digital gov → track ranking progress. From 7,000 unfilled positions → count skills built.
+              </p>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Built with Canadians, not for them. Real needs from real businesses inform everything we create.
+                If we're closing the gap, we can prove it.
               </p>
             </div>
 
-            <div className="p-6 bg-white dark:bg-gray-900 rounded-xl">
-              <div className="w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-orange-600 dark:text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                </svg>
+            <div className="p-8 bg-white dark:bg-gray-900 rounded-xl border-l-4 border-orange-600">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl font-bold text-orange-600 dark:text-orange-400">4</span>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 pt-2">Make it Work for Everyone</h3>
               </div>
-              <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">Complete Transparency</h3>
+              <p className="text-gray-700 dark:text-gray-300 mb-3">
+                Technology that only works for 12% of businesses isn't working. Government services ranked 32nd aren't serving citizens.
+              </p>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Share our progress and challenges openly. Build in public. Clear about what works and what doesn't.
+                Build for the machine shop in Medicine Hat, the non-profit in rural Saskatchewan, the student in Thunder Bay, the clerk in a small town. If it doesn't work for them, it doesn't work.
               </p>
             </div>
           </div>
