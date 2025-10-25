@@ -238,7 +238,7 @@ export default function Home() {
               <div className="flex-1 p-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl border-l-4 border-blue-500">
                 <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">In Progress</h3>
                 <ul className="space-y-1 text-gray-600 dark:text-gray-400">
-                  <li>• Non-profit federal incorporation</li>
+                  <li>• Organizational structure</li>
                   <li>• Community building and early engagement</li>
                   <li>• Partnership conversations</li>
                   <li>• First initiative design</li>
