@@ -118,95 +118,95 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-4 gap-6">
-            <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
-              <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2 block hover:underline">1.2M</a>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Businesses lacking tech capability <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
+            <div className="group p-6 bg-white/80 dark:glass dark:bg-northern-surface/60 hover:dark:bg-northern-surface rounded-xl text-center border border-gray-200 dark:border-aurora-purple/20 hover:dark:border-aurora-purple/50 transition-all duration-300 hover:shadow-elevation-2">
+              <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-purple-600 dark:text-aurora-purple mb-2 block hover:scale-110 transition-transform">1.2M</a>
+              <p className="text-sm text-gray-600 dark:text-gray-300">Businesses lacking tech capability <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-aurora-blue hover:underline text-xs">(source)</a></p>
             </div>
-            <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
-              <a href="https://digital.canada.ca/2025/01/23/how-can-civic-tech-help-improve-government-service-delivery/" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2 block hover:underline">7,000+</a>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Unfilled government tech positions (2022) <a href="https://digital.canada.ca/2025/01/23/how-can-civic-tech-help-improve-government-service-delivery/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
+            <div className="group p-6 bg-white/80 dark:glass dark:bg-northern-surface/60 hover:dark:bg-northern-surface rounded-xl text-center border border-gray-200 dark:border-aurora-blue/20 hover:dark:border-aurora-blue/50 transition-all duration-300 hover:shadow-elevation-2">
+              <a href="https://digital.canada.ca/2025/01/23/how-can-civic-tech-help-improve-government-service-delivery/" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-blue-600 dark:text-aurora-blue mb-2 block hover:scale-110 transition-transform">7,000+</a>
+              <p className="text-sm text-gray-600 dark:text-gray-300">Unfilled government tech positions (2022) <a href="https://digital.canada.ca/2025/01/23/how-can-civic-tech-help-improve-government-service-delivery/" target="_blank" rel="noopener noreferrer" className="text-aurora-blue hover:underline text-xs">(source)</a></p>
             </div>
-            <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
-              <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2 block hover:underline">88%</a>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Of businesses not using AI <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
+            <div className="group p-6 bg-white/80 dark:glass dark:bg-northern-surface/60 hover:dark:bg-northern-surface rounded-xl text-center border border-gray-200 dark:border-canadian-pine/20 hover:dark:border-canadian-pine/50 transition-all duration-300 hover:shadow-elevation-2">
+              <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-green-600 dark:text-canadian-pine mb-2 block hover:scale-110 transition-transform">88%</a>
+              <p className="text-sm text-gray-600 dark:text-gray-300">Of businesses not using AI <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-aurora-blue hover:underline text-xs">(source)</a></p>
             </div>
-            <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
-              <a href="https://publicadministration.un.org/egovkb/en-us/Reports/UN-E-Government-Survey-2024" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-orange-600 dark:text-orange-400 mb-2 block hover:underline">29↓</a>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Places fallen in digital gov (2010-2022) <a href="https://publicadministration.un.org/egovkb/en-us/Reports/UN-E-Government-Survey-2024" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
+            <div className="group p-6 bg-white/80 dark:glass dark:bg-northern-surface/60 hover:dark:bg-northern-surface rounded-xl text-center border border-gray-200 dark:border-canadian-maple/20 hover:dark:border-canadian-maple/50 transition-all duration-300 hover:shadow-elevation-2">
+              <a href="https://publicadministration.un.org/egovkb/en-us/Reports/UN-E-Government-Survey-2024" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-orange-600 dark:text-canadian-maple mb-2 block hover:scale-110 transition-transform">29↓</a>
+              <p className="text-sm text-gray-600 dark:text-gray-300">Places fallen in digital gov (2010-2022) <a href="https://publicadministration.un.org/egovkb/en-us/Reports/UN-E-Government-Survey-2024" target="_blank" rel="noopener noreferrer" className="text-aurora-blue hover:underline text-xs">(source)</a></p>
             </div>
           </div>
         </div>
       </section>
 
       {/* How We Work */}
-      <section id="belief" className="py-20 bg-gray-50 dark:bg-gray-800">
+      <section id="belief" className="py-20 bg-gray-50 dark:bg-northern-slate">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-canadian-snow mb-4">
               How We Work
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               Four principles for Day One. Execution over philosophy.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="p-8 bg-white dark:bg-gray-900 rounded-xl border-l-4 border-purple-600">
+            <div className="group p-8 bg-white dark:glass dark:bg-northern-surface hover:dark:bg-northern-surface-hover rounded-xl border-l-4 border-aurora-purple dark:border-aurora-purple transition-all duration-300 hover:shadow-elevation-3">
               <div className="flex items-start gap-4 mb-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold text-purple-600 dark:text-purple-400">1</span>
+                <div className="flex-shrink-0 w-12 h-12 bg-aurora-purple/10 dark:bg-aurora-purple/20 rounded-lg flex items-center justify-center border border-aurora-purple/30">
+                  <span className="text-2xl font-bold text-aurora-purple">1</span>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 pt-2">Start with Who Needs Help</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-canadian-snow pt-2">Start with Who Needs Help</h3>
               </div>
-              <p className="text-gray-700 dark:text-gray-300 mb-3">
+              <p className="text-gray-700 dark:text-gray-200 mb-3">
                 The business that can't compete. The citizen trying to understand complex policy. The teacher and student navigating technology in the classroom. The community organization that can't scale.
               </p>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600 dark:text-gray-300">
                 Build for real Canadians with real problems, not theoretical users.
               </p>
             </div>
 
-            <div className="p-8 bg-white dark:bg-gray-900 rounded-xl border-l-4 border-blue-600">
+            <div className="group p-8 bg-white dark:glass dark:bg-northern-surface hover:dark:bg-northern-surface-hover rounded-xl border-l-4 border-aurora-blue dark:border-aurora-blue transition-all duration-300 hover:shadow-elevation-3">
               <div className="flex items-start gap-4 mb-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">2</span>
+                <div className="flex-shrink-0 w-12 h-12 bg-aurora-blue/10 dark:bg-aurora-blue/20 rounded-lg flex items-center justify-center border border-aurora-blue/30">
+                  <span className="text-2xl font-bold text-aurora-blue">2</span>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 pt-2">Ship Working Tools, Not Perfect Plans</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-canadian-snow pt-2">Ship Working Tools, Not Perfect Plans</h3>
               </div>
-              <p className="text-gray-700 dark:text-gray-300 mb-3">
+              <p className="text-gray-700 dark:text-gray-200 mb-3">
                 Canada ranks #1 in AI policy. We don't need more frameworks.
               </p>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600 dark:text-gray-300">
                 Launch early, improve constantly, measure actual capability. Small working systems beat large perfect plans.
               </p>
             </div>
 
-            <div className="p-8 bg-white dark:bg-gray-900 rounded-xl border-l-4 border-green-600">
+            <div className="group p-8 bg-white dark:glass dark:bg-northern-surface hover:dark:bg-northern-surface-hover rounded-xl border-l-4 border-aurora-green dark:border-aurora-green transition-all duration-300 hover:shadow-elevation-3">
               <div className="flex items-start gap-4 mb-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold text-green-600 dark:text-green-400">3</span>
+                <div className="flex-shrink-0 w-12 h-12 bg-aurora-green/10 dark:bg-aurora-green/20 rounded-lg flex items-center justify-center border border-aurora-green/30">
+                  <span className="text-2xl font-bold text-aurora-green">3</span>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 pt-2">Close the Gap, Track the Gap</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-canadian-snow pt-2">Close the Gap, Track the Gap</h3>
               </div>
-              <p className="text-gray-700 dark:text-gray-300 mb-3">
+              <p className="text-gray-700 dark:text-gray-200 mb-3">
                 From 12% business adoption → measure monthly gains. From 32nd in digital gov → track ranking progress. From 7,000 unfilled positions → count skills built.
               </p>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600 dark:text-gray-300">
                 If we're closing the gap, we can prove it.
               </p>
             </div>
 
-            <div className="p-8 bg-white dark:bg-gray-900 rounded-xl border-l-4 border-orange-600">
+            <div className="group p-8 bg-white dark:glass dark:bg-northern-surface hover:dark:bg-northern-surface-hover rounded-xl border-l-4 border-canadian-maple dark:border-canadian-maple transition-all duration-300 hover:shadow-elevation-3">
               <div className="flex items-start gap-4 mb-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold text-orange-600 dark:text-orange-400">4</span>
+                <div className="flex-shrink-0 w-12 h-12 bg-canadian-maple/10 dark:bg-canadian-maple/20 rounded-lg flex items-center justify-center border border-canadian-maple/30">
+                  <span className="text-2xl font-bold text-canadian-maple">4</span>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 pt-2">Make it Work for Everyone</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-canadian-snow pt-2">Make it Work for Everyone</h3>
               </div>
-              <p className="text-gray-700 dark:text-gray-300 mb-3">
+              <p className="text-gray-700 dark:text-gray-200 mb-3">
                 Technology that only works for 12% of businesses isn't working. Government services ranked 32nd aren't serving citizens.
               </p>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600 dark:text-gray-300">
                 Build for the machine shop in Medicine Hat, the community group in rural Saskatchewan, the classroom using AI tools in Thunder Bay, the small business in a remote town. If it doesn't work for them, it doesn't work.
               </p>
             </div>
@@ -215,25 +215,25 @@ export default function Home() {
       </section>
 
       {/* Where We Are - Journey */}
-      <section id="journey" className="py-20 bg-white dark:bg-gray-900">
+      <section id="journey" className="py-20 bg-white dark:bg-northern-dark">
         <div className="max-w-5xl mx-auto px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-canadian-snow mb-4">
               Our Progress
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-400">
+            <p className="text-xl text-gray-600 dark:text-gray-300">
               Regularly updated with current status.
             </p>
           </div>
 
           <div className="space-y-8">
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white font-bold">
+              <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-aurora-green to-canadian-pine rounded-full flex items-center justify-center text-white font-bold shadow-glow-aurora">
                 ✓
               </div>
-              <div className="flex-1 p-6 bg-green-50 dark:bg-green-900/20 rounded-xl border-l-4 border-green-500">
-                <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">Established</h3>
-                <ul className="space-y-1 text-gray-600 dark:text-gray-400">
+              <div className="flex-1 p-6 bg-white/80 dark:glass dark:bg-northern-surface rounded-xl border-l-4 border-aurora-green dark:border-aurora-green">
+                <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2">Established</h3>
+                <ul className="space-y-1 text-gray-600 dark:text-gray-300">
                   <li>• Mission and vision defined</li>
                   <li>• Core values established</li>
                   <li>• Understanding of the problem</li>
@@ -243,12 +243,12 @@ export default function Home() {
             </div>
 
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">
+              <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-aurora-blue to-blue-600 rounded-full flex items-center justify-center text-white font-bold shadow-glow-blue">
                 ⏳
               </div>
-              <div className="flex-1 p-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl border-l-4 border-blue-500">
-                <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">In Progress</h3>
-                <ul className="space-y-1 text-gray-600 dark:text-gray-400">
+              <div className="flex-1 p-6 bg-white/80 dark:glass dark:bg-northern-surface rounded-xl border-l-4 border-aurora-blue dark:border-aurora-blue">
+                <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2">In Progress</h3>
+                <ul className="space-y-1 text-gray-600 dark:text-gray-300">
                   <li>• Organizational structure</li>
                   <li>• Community building and early engagement</li>
                   <li>• Partnership conversations</li>
@@ -263,9 +263,9 @@ export default function Home() {
               <div className="flex-shrink-0 w-8 h-8 bg-gray-300 dark:bg-gray-600 rounded-full flex items-center justify-center text-white font-bold">
                 —
               </div>
-              <div className="flex-1 p-6 bg-gray-50 dark:bg-gray-800 rounded-xl border-l-4 border-gray-300 dark:border-gray-600">
-                <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-2">Not Started</h3>
-                <ul className="space-y-1 text-gray-600 dark:text-gray-400">
+              <div className="flex-1 p-6 bg-white/80 dark:glass dark:bg-northern-surface/50 rounded-xl border-l-4 border-gray-300 dark:border-gray-600">
+                <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2">Not Started</h3>
+                <ul className="space-y-1 text-gray-600 dark:text-gray-300">
                   <li>• Product development</li>
                   <li>• Course creation</li>
                   <li>• Platform building</li>
@@ -278,17 +278,20 @@ export default function Home() {
       </section>
 
       {/* Call to Action */}
-      <section id="join" className="py-20 bg-gradient-to-br from-purple-600 to-blue-600 text-white">
-        <div className="max-w-4xl mx-auto px-8 text-center">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6">
+      <section id="join" className="relative py-20 bg-gradient-to-br from-aurora-purple via-aurora-blue to-aurora-green text-white overflow-hidden">
+        {/* Aurora effect overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-transparent via-aurora-purple/20 to-transparent opacity-50"></div>
+
+        <div className="max-w-4xl mx-auto px-8 text-center relative z-10">
+          <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-canadian-snow">
             Get Involved at Day One
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="text-xl mb-8 text-gray-100">
             Help shape what we build. Share your expertise. Build Canada's technology commons together.
           </p>
-          <div className="text-center">
-            <p className="text-lg mb-4">Connect with us at <a href="mailto:hello@cognitivecommons.ca" className="underline hover:text-gray-100">hello@cognitivecommons.ca</a></p>
-            <p className="text-sm opacity-75">Updates coming soon.</p>
+          <div className="inline-block glass bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-8 shadow-elevation-4">
+            <p className="text-lg mb-4">Connect with us at <a href="mailto:hello@cognitivecommons.ca" className="underline hover:text-canadian-snow font-semibold transition-colors">hello@cognitivecommons.ca</a></p>
+            <p className="text-sm text-gray-200">Updates coming soon.</p>
           </div>
         </div>
       </section>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Footer() {
   return (
-    <footer className="bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
+    <footer className="bg-gray-50 dark:bg-northern-slate border-t border-gray-200 dark:border-aurora-blue/20">
       <div className="max-w-7xl mx-auto px-8 py-12">
         <div className="flex flex-col items-center gap-6">
           {/* Logo */}
@@ -23,13 +23,13 @@ export function Footer() {
             />
           </div>
 
-          {/* Tagline */}
-          <p className="text-center text-gray-600 dark:text-gray-400 max-w-md">
-            Making Technology Work for All of Canada
+          {/* Tagline with gradient */}
+          <p className="text-center text-gray-600 dark:text-gray-300 max-w-md font-medium">
+            Making Technology Work for <span className="text-gradient-aurora">All of Canada</span>
           </p>
 
           {/* Copyright */}
-          <p className="text-center text-sm text-gray-500 dark:text-gray-500">
+          <p className="text-center text-sm text-gray-500 dark:text-gray-400">
             © {new Date().getFullYear()} CognitiveCommons. A Canadian organization.
           </p>
         </div>

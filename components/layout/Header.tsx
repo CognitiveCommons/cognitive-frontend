@@ -20,7 +20,7 @@ export function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-b border-gray-200 dark:border-gray-800">
+    <header className="fixed top-0 left-0 right-0 z-50 glass bg-white/90 dark:bg-northern-dark/90 backdrop-blur-lg border-b border-gray-200 dark:border-aurora-blue/20 shadow-elevation-1">
       <div className="max-w-[1536px] mx-auto px-8">
         <nav className="flex items-center justify-between gap-12 py-4">
           {/* Logo */}
@@ -50,10 +50,10 @@ export function Header() {
                 key={item.name}
                 href={item.href}
                 onClick={(e) => scrollToSection(e, item.href)}
-                className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 font-medium text-sm transition-colors relative group cursor-pointer"
+                className="text-gray-600 dark:text-gray-300 hover:text-aurora-purple dark:hover:text-aurora-green font-medium text-sm transition-colors relative group cursor-pointer"
               >
                 {item.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-blue-600 group-hover:w-full transition-all duration-300"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-aurora-purple via-aurora-blue to-aurora-green group-hover:w-full transition-all duration-300"></span>
               </a>
             ))}
           </div>
