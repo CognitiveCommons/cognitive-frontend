@@ -62,11 +62,11 @@ export default function Home() {
             <div className="space-y-8">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-16 h-16 bg-green-100 dark:bg-green-900/30 rounded-lg flex items-center justify-center">
-                  <a href="https://www.allaboutai.com/resources/ai-statistics/global-ai-adoption/" target="_blank" rel="noopener noreferrer" className="text-2xl font-bold text-green-600 dark:text-green-400 hover:underline">#1</a>
+                  <a href="https://www.caidp.org/reports/aidv-2024/" target="_blank" rel="noopener noreferrer" className="text-2xl font-bold text-green-600 dark:text-green-400 hover:underline">#1</a>
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 dark:text-gray-100 mb-1">AI Policy Leadership</h3>
-                  <p className="text-gray-600 dark:text-gray-400">Canada ranks first globally in responsible AI adoption frameworks <a href="https://www.allaboutai.com/resources/ai-statistics/global-ai-adoption/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
+                  <p className="text-gray-600 dark:text-gray-400">Canada ranks first globally in AI policy aligned with democratic values (tied with South Korea and Japan) <a href="https://www.caidp.org/reports/aidv-2024/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
                 </div>
               </div>
 
@@ -112,8 +112,8 @@ export default function Home() {
               <p className="text-sm text-gray-600 dark:text-gray-400">Businesses lacking tech capability <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
             </div>
             <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
-              <a href="https://digital.canada.ca/2025/01/23/how-can-civic-tech-help-improve-government-service-delivery/" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2 block hover:underline">7,000</a>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Unfilled government tech positions <a href="https://digital.canada.ca/2025/01/23/how-can-civic-tech-help-improve-government-service-delivery/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
+              <a href="https://digital.canada.ca/2025/01/23/how-can-civic-tech-help-improve-government-service-delivery/" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2 block hover:underline">7,000+</a>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Unfilled government tech positions (2022) <a href="https://digital.canada.ca/2025/01/23/how-can-civic-tech-help-improve-government-service-delivery/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-xs">(source)</a></p>
             </div>
             <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl text-center">
               <a href="https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2025011-eng.htm" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2 block hover:underline">88%</a>
@@ -135,7 +135,7 @@ export default function Home() {
               How We Work
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-              Four principles adapted from the UK's Government Digital Service. Execution over philosophy.
+              Four principles for Day One. Execution over philosophy.
             </p>
           </div>
 
@@ -277,7 +277,7 @@ export default function Home() {
           </p>
           <div className="text-center">
             <p className="text-lg mb-4">Connect with us at <a href="mailto:hello@cognitivecommons.ca" className="underline hover:text-gray-100">hello@cognitivecommons.ca</a></p>
-            <p className="text-sm opacity-75">Building in the open. Updates coming soon.</p>
+            <p className="text-sm opacity-75">Updates coming soon.</p>
           </div>
         </div>
       </section>
