@@ -1,55 +1,44 @@
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
 import { Card } from "@/components/ui/Card";
-import { Package, Users, Shield } from "lucide-react";
+import { Package, GraduationCap, Users } from "lucide-react";
 
 const pillars = [
   {
     icon: Package,
-    title: "ACCESS",
-    subtitle: "Practical Digital Services",
+    title: "AI Tools & SaaS",
+    percentage: "60%",
     description:
-      "Interoperable, modular tools addressing real friction points. Community Notify for deadline reminders, Service Navigator for benefits discovery, Grants Studio for funding applications, Report & Route for issue tracking, Housing Access for tenant tools.",
+      "Affordable business automation for Canadian SMEs. From $49/month, our tools make enterprise-level AI accessible to Main Street businesses—not just Bay Street.",
     features: [
-      "Community Notify (consent-based messaging, SLA tracking)",
-      "Service Navigator (HSDS-compatible service directories)",
-      "Grants Studio (360Giving-compatible, proposal drafting)",
-      "Report & Route (FixMyStreet-style structured intake)",
-      "Housing Access (listings + tenant tools)",
-      "Sector tools (TideWatch, AgriSmart, RetailEdge)",
+      "SME AI Productivity Suite",
+      "Sector-Specific Tools (Maritime, Civic, Indigenous)",
+      "AgriSmart & RetailEdge",
     ],
-    metrics: "≥45% message open rates, ≥85% directory freshness, ≥70% SLA compliance",
+  },
+  {
+    icon: GraduationCap,
+    title: "Training & Education",
+    percentage: "25%",
+    description:
+      "Practical AI skills for real Canadians. Two-day bootcamps, online courses, and K-12 programs that demystify AI and make it actionable—no coding required.",
+    features: [
+      "2-Day SME AI Bootcamps",
+      "K-12 AI Literacy Programs",
+      "Teacher Professional Development",
+    ],
   },
   {
     icon: Users,
-    title: "AGENCY",
-    subtitle: "Building Capacity",
+    title: "Consulting & Advisory",
+    percentage: "15%",
     description:
-      "Empowering people to use technology confidently through practical education. Teacher Support Network with workshops and peer circles, SME Quick-Wins cohorts with 4-week sprints, Community Tech Stewards training for local governance.",
+      "Expert guidance without the enterprise price tag. AI readiness assessments, bias auditing, and implementation support tailored for Canadian organizations.",
     features: [
-      "Teacher Support Network (workshops, classroom-ready units)",
-      "SME Quick-Wins Cohorts (4-week implementation sprints)",
-      "Community Tech Stewards (local data governance)",
-      "Plain-language coaching with reviewer gates",
-      "Sector-specific training programs",
+      "AI Readiness Assessments",
+      "Bias Auditing & Ethics Certification",
+      "Government AI Advisory",
     ],
-    metrics: "≥30% time saved per task, ≥60% adoption persistence at 90 days",
-  },
-  {
-    icon: Shield,
-    title: "ASSURANCE",
-    subtitle: "Earning Trust Through Transparency",
-    description:
-      "Verifiable behavior and transparent operations. WCAG 2.2 AA accessibility as release gate, CASL/PIPEDA compliance, Canadian data residency, open methods with published ethics notes and incident runbooks, quarterly impact reports.",
-    features: [
-      "WCAG 2.2 AA accessibility (release gate)",
-      "CASL compliance (consent tracking, opt-out, quiet hours)",
-      "PIPEDA implementation (DPIAs, audit logs, access requests)",
-      "Canadian data residency (encrypted in transit & at rest)",
-      "Open standards (HSDS, 360Giving, FixMyStreet, Alaveteli)",
-      "Quarterly impact notes and annual replication reports",
-    ],
-    metrics: "Privacy requests within SLA, audit anomalies investigated, incident-free operation",
   },
 ];
 
@@ -59,10 +48,10 @@ export function ThreePillars() {
       <Container>
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            ACCESS → AGENCY → ASSURANCE
+            Our Three-Pillar Strategy
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Three pillars for delivering practical, trustworthy tools to underserved communities. People—not only large institutions—benefit.
+            A comprehensive approach to democratizing AI across Canada—from tools to training to transformation.
           </p>
         </div>
 
@@ -71,25 +60,23 @@ export function ThreePillars() {
             const Icon = pillar.icon;
             return (
               <Card key={index} hover className="relative overflow-hidden">
+                <div className="absolute top-0 right-0 text-8xl font-bold text-gray-100 select-none">
+                  {pillar.percentage}
+                </div>
                 <div className="relative z-10">
                   <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center mb-4">
                     <Icon className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold mb-1">{pillar.title}</h3>
-                  <p className="text-sm text-purple-600 font-medium mb-3">{pillar.subtitle}</p>
+                  <h3 className="text-2xl font-bold mb-3">{pillar.title}</h3>
                   <p className="text-gray-600 mb-6">{pillar.description}</p>
-                  <ul className="space-y-2 mb-4">
+                  <ul className="space-y-2">
                     {pillar.features.map((feature, idx) => (
                       <li key={idx} className="flex items-start">
-                        <span className="text-purple-600 mr-2 flex-shrink-0">✓</span>
+                        <span className="text-purple-600 mr-2">✓</span>
                         <span className="text-sm text-gray-700">{feature}</span>
                       </li>
                     ))}
                   </ul>
-                  <div className="pt-4 border-t border-gray-200">
-                    <p className="text-xs text-gray-500 font-medium">Success Metrics:</p>
-                    <p className="text-xs text-gray-600 mt-1">{pillar.metrics}</p>
-                  </div>
                 </div>
               </Card>
             );

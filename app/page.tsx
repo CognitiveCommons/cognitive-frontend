@@ -3,7 +3,6 @@
 import { AnimatedAurora } from "@/components/effects/AnimatedAurora";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { MapleLeaf } from "@/components/canadian/MapleLeaf";
-import { ThreePillars } from "@/components/sections/ThreePillars";
 
 export default function Home() {
   return (
@@ -166,9 +165,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Three Pillars - ACCESS → AGENCY → ASSURANCE */}
-      <ThreePillars />
-
       {/* How We Work */}
       <section id="belief" className="py-20 bg-gray-50 dark:bg-northern-slate">
         <div className="max-w-7xl mx-auto px-8">
@@ -303,156 +299,6 @@ export default function Home() {
                   <li>• Service delivery</li>
                 </ul>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* What We Will Not Do */}
-      <section className="py-20 bg-white dark:bg-northern-dark">
-        <div className="max-w-5xl mx-auto px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-canadian-snow mb-4">
-              What CognitiveCommons Will Not Do
-            </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300">
-              Explicit constraints that define our boundaries
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="p-6 bg-red-50 dark:bg-red-900/10 border-l-4 border-red-500 dark:border-red-400 rounded-xl">
-              <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2 flex items-center gap-2">
-                <span className="text-red-500">✗</span> No Lock-in Platforms
-              </h3>
-              <p className="text-gray-700 dark:text-gray-200">
-                We will not build lock-in platforms or harvest data for unrelated purposes. Open standards and data portability are non-negotiable.
-              </p>
-            </div>
-
-            <div className="p-6 bg-red-50 dark:bg-red-900/10 border-l-4 border-red-500 dark:border-red-400 rounded-xl">
-              <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2 flex items-center gap-2">
-                <span className="text-red-500">✗</span> No Bypassing Consent
-              </h3>
-              <p className="text-gray-700 dark:text-gray-200">
-                We will not ship features that bypass consent or obscure data use. Transparency and explicit opt-in are required for all data collection.
-              </p>
-            </div>
-
-            <div className="p-6 bg-red-50 dark:bg-red-900/10 border-l-4 border-red-500 dark:border-red-400 rounded-xl">
-              <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2 flex items-center gap-2">
-                <span className="text-red-500">✗</span> No Replacing Human Judgment
-              </h3>
-              <p className="text-gray-700 dark:text-gray-200">
-                We will not replace human judgment in sensitive decisions. AI assists—humans decide. No autonomous actions on critical matters.
-              </p>
-            </div>
-
-            <div className="p-6 bg-red-50 dark:bg-red-900/10 border-l-4 border-red-500 dark:border-red-400 rounded-xl">
-              <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2 flex items-center gap-2">
-                <span className="text-red-500">✗</span> No Over-Promising Transformation
-              </h3>
-              <p className="text-gray-700 dark:text-gray-200">
-                We will not over-promise transformation when reliable small wins are needed first. Evidence-based progress over aspirational hype.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Governance & Transparency */}
-      <section className="py-20 bg-gray-50 dark:bg-northern-slate">
-        <div className="max-w-5xl mx-auto px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-canadian-snow mb-4">
-              Governance & Transparency
-            </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300">
-              Accountable structures for community-driven decisions
-            </p>
-          </div>
-
-          <div className="space-y-6">
-            <div className="p-8 bg-white dark:glass dark:bg-northern-surface rounded-xl border border-gray-200 dark:border-aurora-blue/20">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-canadian-snow mb-3">Partner Council</h3>
-              <p className="text-gray-700 dark:text-gray-200 mb-4">
-                Quarterly meetings to govern taxonomy decisions, retention defaults, and escalation ladders. All minutes published openly for community review.
-              </p>
-              <p className="text-sm text-gray-600 dark:text-gray-300">
-                Ensures partner organizations have direct input into platform governance and data stewardship decisions.
-              </p>
-            </div>
-
-            <div className="p-8 bg-white dark:glass dark:bg-northern-surface rounded-xl border border-gray-200 dark:border-aurora-green/20">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-canadian-snow mb-3">Community Tech Stewards</h3>
-              <p className="text-gray-700 dark:text-gray-200 mb-4">
-                Trained local representatives managing directory quality, messaging hygiene, privacy FAQs, and monthly review queues. Empowering communities to govern their own data.
-              </p>
-              <p className="text-sm text-gray-600 dark:text-gray-300">
-                Local ownership and co-design—partners govern, can self-host, own data quality.
-              </p>
-            </div>
-
-            <div className="p-8 bg-white dark:glass dark:bg-northern-surface rounded-xl border border-gray-200 dark:border-aurora-purple/20">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-canadian-snow mb-3">Privacy Official</h3>
-              <p className="text-gray-700 dark:text-gray-200 mb-4">
-                Designated role responsible for PIPEDA compliance, conducting DPIAs, handling access/deletion requests, and maintaining audit logs with separate sensitive-data vaults.
-              </p>
-              <p className="text-sm text-gray-600 dark:text-gray-300">
-                Ensures all operations meet Canadian privacy law requirements and community trust standards.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Standards Integration & Interoperability */}
-      <section className="py-20 bg-white dark:bg-northern-dark">
-        <div className="max-w-7xl mx-auto px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-canadian-snow mb-4">
-              Standards Integration & Interoperability
-            </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              We use open schemas to avoid bespoke drift and ensure data portability
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="p-6 bg-gray-50 dark:glass dark:bg-northern-surface rounded-xl border border-gray-200 dark:border-aurora-green/20">
-              <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2">HSDS</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">Human Services Data Specification</p>
-              <p className="text-xs text-gray-500 dark:text-gray-400">Service Navigator uses HSDS-compatible records for community service directories, ensuring interoperability with 211 services and other social service platforms.</p>
-            </div>
-
-            <div className="p-6 bg-gray-50 dark:glass dark:bg-northern-surface rounded-xl border border-gray-200 dark:border-aurora-blue/20">
-              <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2">360Giving</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">Open grants data standard</p>
-              <p className="text-xs text-gray-500 dark:text-gray-400">Grants Studio implements 360Giving-compatible schema for funding opportunity discovery and proposal tracking, enabling data sharing across funders.</p>
-            </div>
-
-            <div className="p-6 bg-gray-50 dark:glass dark:bg-northern-surface rounded-xl border border-gray-200 dark:border-aurora-purple/20">
-              <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2">FixMyStreet</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">Civic issue reporting standard</p>
-              <p className="text-xs text-gray-500 dark:text-gray-400">Report & Route follows FixMyStreet-style structured intake with SLA tracking for community issue reporting and municipal response coordination.</p>
-            </div>
-
-            <div className="p-6 bg-gray-50 dark:glass dark:bg-northern-surface rounded-xl border border-gray-200 dark:border-canadian-maple/20">
-              <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2">Alaveteli</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">Freedom of Information platform</p>
-              <p className="text-xs text-gray-500 dark:text-gray-400">Transparency & FOI Helper implements Alaveteli-style workflows for access to information requests and response tracking.</p>
-            </div>
-
-            <div className="p-6 bg-gray-50 dark:glass dark:bg-northern-surface rounded-xl border border-gray-200 dark:border-canadian-pine/20">
-              <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2">GOV.UK Notify</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">Government notification pattern</p>
-              <p className="text-xs text-gray-500 dark:text-gray-400">Community Notify follows GOV.UK Notify pattern for consent-based messaging with sender ID, one-click unsubscribe, and quiet hours enforcement.</p>
-            </div>
-
-            <div className="p-6 bg-gray-50 dark:glass dark:bg-northern-surface rounded-xl border border-gray-200 dark:border-canadian-red/20">
-              <h3 className="font-bold text-gray-900 dark:text-canadian-snow mb-2">Canadian Data Residency</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">Data sovereignty commitment</p>
-              <p className="text-xs text-gray-500 dark:text-gray-400">All data stored within Canadian borders, encrypted in transit and at rest, with PIPEDA/CASL compliance as non-negotiable release gates.</p>
             </div>
           </div>
         </div>
