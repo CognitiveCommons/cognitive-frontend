@@ -40,7 +40,7 @@ export default function Home() {
           <FadeIn delay={0.2}>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-canadian-snow mb-6 leading-tight">
               <span className="text-gradient-canadian">
-                Access to tools. Agency to act. Assurance to trust.
+                Access within reach. Agency to act. Assurance to trust.
               </span>
             </h1>
           </FadeIn>
