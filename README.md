@@ -23,21 +23,22 @@ CognitiveCommons makes artificial intelligence accessible, affordable, and ethic
 ## Features
 
 ### Public Pages
-- **Homepage**: Hero section, three-pillar strategy, impact stats, featured courses
-- **Courses**: Browse AI training courses with search/filtering (6 courses from $49-$499)
-- **Course Details**: Individual course pages with syllabus, learning outcomes, enrollment CTAs
-- **AI Tools**: Showcase 6 AI products (SME Suite, TideWatch, CivicPulse, KeepersAI, etc.)
-- **About**: Mission story, values, three-pillar strategy
-- **Blog**: Educational content on AI, SME tips, and technology insights
-- **Contact**: Multi-purpose contact form with inquiry routing
+- **Homepage**: Hero section, capability gap data, ACCESS/AGENCY/ASSURANCE pillars, governance structure
+- **Three Pillars**: Detailed explanation of practical tools, capacity building, and trust mechanisms
+- **What We Will Not Do**: Explicit constraints (no lock-in, no bypassing consent, human-in-loop, evidence over hype)
+- **Governance & Transparency**: Partner Council, Community Tech Stewards, Privacy Official
+- **Standards Integration**: HSDS, 360Giving, FixMyStreet, Alaveteli, GOV.UK Notify patterns
+- **Privacy Policy**: PIPEDA/CASL compliance details, data residency, consent mechanisms
+- **Terms of Service**: User agreements and acceptable use policies
 
 ### Design Features
-- Minimalist design inspired by Cursor.com and OpenAI.com
-- Warm, conversational GlobalFoodBook.com writing tone
+- Evidence-based design (capability gap data, success metrics)
+- WCAG 2.2 AA accessibility compliance (release gate)
 - Fully responsive (mobile-first design)
-- Black primary color with purple-blue gradient accents
+- Canadian-themed colors with aurora and maple accents
 - Bold typography using Inter font family
 - Consistent component library for rapid development
+- Low-bandwidth optimized for underserved communities
 
 ## Getting Started
 
@@ -256,18 +257,28 @@ All content follows the **GlobalFoodBook.com warm, conversational tone**:
 
 See [CONTENT_GUIDE.md](./CONTENT_GUIDE.md) for complete writing style guide with examples.
 
-## Three-Pillar Strategy
+## Three-Pillar Framework: ACCESS → AGENCY → ASSURANCE
 
-CognitiveCommons operates on three pillars:
+CognitiveCommons operates on three interconnected pillars:
 
-1. **AI Tools & SaaS (60% revenue)**: Affordable AI products for Canadian SMEs
-   - SME AI Suite, TideWatch, CivicPulse, KeepersAI, AgriSmart, RetailEdge
-2. **Training & Education (25% revenue)**: Accessible AI courses
-   - 2-day bootcamps, teacher development programs, sector-specific training
-3. **Consulting & Advisory (15% revenue)**: Expert guidance for implementation
-   - AI strategy, tool selection, implementation support
+1. **ACCESS**: Practical Digital Services
+   - Interoperable, modular tools addressing real friction points
+   - Community Notify, Service Navigator (HSDS), Grants Studio (360Giving), Report & Route (FixMyStreet), Housing Access
+   - Sector tools: TideWatch (fisheries), AgriSmart (agriculture), RetailEdge (retail)
+   - Success metrics: ≥45% message open rates, ≥85% directory freshness, ≥70% SLA compliance
 
-**Robin Hood Economics**: Premium enterprise clients subsidize affordable SME pricing.
+2. **AGENCY**: Building Capacity
+   - Teacher Support Network with workshops and peer circles
+   - SME Quick-Wins cohorts (4-week implementation sprints)
+   - Community Tech Stewards training for local data governance
+   - Success metrics: ≥30% time saved per task, ≥60% adoption persistence at 90 days
+
+3. **ASSURANCE**: Earning Trust Through Transparency
+   - WCAG 2.2 AA accessibility as release gate
+   - CASL/PIPEDA compliance (consent tracking, audit logs, DPIAs)
+   - Canadian data residency (encrypted in transit & at rest)
+   - Open standards integration (HSDS, 360Giving, FixMyStreet, Alaveteli)
+   - Quarterly impact notes and annual replication reports
 
 ## Target Audience
 
