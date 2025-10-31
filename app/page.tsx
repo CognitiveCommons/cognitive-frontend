@@ -40,7 +40,7 @@ export default function Home() {
           <FadeIn delay={0.2}>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-canadian-snow mb-6 leading-tight">
               <span className="text-gradient-canadian">
-                Let's make things better—open, accessible, and human-centered
+                Affordable AI tools. Practical training. Expert support.
               </span>
             </h1>
           </FadeIn>
